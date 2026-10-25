@@ -1,0 +1,155 @@
+
+<!DOCTYPE
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Four Months of Us 🐧❤️</title>
+<style>
+:root {
+  --pink: #ffe3ed;
+  --blue: #dff2ff;
+  --ink: #594451;
+  --rose: #c85d83;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--ink);
+  background: linear-gradient(160deg, #fff8fb, var(--pink), var(--blue));
+  text-align: center;
+}
+section {
+  padding: 72px 22px;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero { min-height: 100vh; }
+h1 { font-size: clamp(2.4rem, 8vw, 4.5rem); margin: 14px 0; }
+h2 { font-size: clamp(1.8rem, 6vw, 2.7rem); }
+p { font-size: 1.08rem; line-height: 1.9; }
+.eyebrow { letter-spacing: 4px; text-transform: uppercase; font-size: .75rem; }
+.card {
+  max-width: 720px; width: 100%; padding: 28px;
+  background: rgba(255,255,255,.72);
+  border: 1px solid white; border-radius: 26px;
+  box-shadow: 0 12px 35px #b56c8520;
+}
+button, .link-button {
+  display: inline-block; border: 0; border-radius: 30px;
+  padding: 14px 23px; background: var(--rose);
+  color: white; font-size: 1rem; cursor: pointer;
+  text-decoration: none; margin: 8px;
+}
+.photo-grid {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px; max-width: 650px; width: 100%;
+}
+.photo {
+  min-height: 180px; border-radius: 20px; overflow: hidden;
+  background: linear-gradient(135deg, #ffd7e7, #d9edff);
+  display: flex; align-items: center; justify-content: center;
+  padding: 12px;
+}
+.photo img { width: 100%; height: 220px; object-fit: cover; }
+.letter { text-align: left; white-space: normal; }
+.heart { font-size: 2.5rem; animation: float 2.5s ease-in-out infinite; }
+.hidden-surprise { display: none; }
+.hidden-surprise.show { display: block; animation: appear 1s ease; }
+footer { padding: 28px; font-size: .9rem; }
+@keyframes float {
+  50% { transform: translateY(-12px) rotate(5deg); }
+}
+@keyframes appear {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 480px) {
+  section { padding: 55px 16px; }
+  .card { padding: 22px; }
+  .photo { min-height: 130px; }
+  .photo img { height: 160px; }
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="heart">🐧💗</div>
+  <p class="eyebrow">A little love story</p>
+  <h1>Four Months<br>of Us</h1>
+  <p>Two different worlds, one love.</p>
+  <p>For my handsome penguin baby ❤️</p>
+  <a class="link-button" href="#story">Open your little gift ↓</a>
+</section>
+
+<section id="story">
+  <p class="eyebrow">Chapter one</p>
+  <h2>How It All Began</h2>
+  <div class="card">
+    <p>We were two people who weren't even looking for love, never imagining that one conversation could turn into something so beautiful.</p>
+    <p>From strangers to friends, and from friends to us. Somehow, life brought us together, and now you've become one of the most special people in my life.</p>
+    <p>And baby, I hope our story never has a final chapter. 🥹❤️</p>
+  </div>
+</section>
+
+<section id="memories">
+  <p class="eyebrow">Little pieces of us</p>
+  <h2>Our Little Memories 📸</h2>
+  <p>Our favorite pictures will live here.</p>
+  <div class="photo-grid">
+    <div class="photo"><span>💗 Add our first photo here</span></div>
+    <div class="photo"><span>🐧 Add a favorite picture</span></div>
+    <div class="photo"><span>🩵 Add a cute memory</span></div>
+    <div class="photo"><span>💌 Add one more photo</span></div>
+  </div>
+  <p>Even from far away, you're part of my everyday life.</p>
+</section>
+
+<section id="letter">
+  <p class="eyebrow">From my heart to yours</p>
+  <h2>A Letter for You, My Love 💌</h2>
+  <div class="card letter">
+    <p>Hola, mi hermoso bebé pingüinito. 💗</p>
+    <p>Happy four months to us, my love! Can you believe we've already been together for four months? Sometimes it still feels unbelievable that two strangers became such important people in each other's lives. We weren't even looking for love, but somehow life brought us together, and now I have you, my favorite person.</p>
+    <p>Baby, these four months have taught me that loving someone isn't only about happy moments, sweet words, and little gestures. It's also about learning, understanding, being patient, and discovering all the little things that make us different.</p>
+    <p>We come from different countries, grew up with different cultures, and learned different things about life. Something that feels completely normal to me might feel different to you, and something you learned growing up might be something I still need to learn. And that's okay, baby. We're still discovering so much about each other.</p>
+    <p>What matters to me is that I'm willing to learn with you, little by little and patiently. I don't expect us to understand everything perfectly from the beginning. I just want us to keep communicating, explaining things, and trying to see the world through each other's eyes. I want to understand your feelings, your boundaries, your culture, and the little things that matter to you.</p>
+    <p>About what happened yesterday, baby, I'm glad we talked and cleared up that misunderstanding. It hurt to think that we could lose something so precious because we understood things differently. But I'm thankful we gave each other the chance to explain, listen, and understand each other better. I don't want us to be afraid of misunderstandings. I want us to learn how to work through them together.</p>
+    <p>Thank you for being part of my life, baby. Thank you for the love you've given me and for the little moments that make me smile even when you're miles away. Even though we haven't met in person yet, you've become such a special part of my everyday life. I look forward to the day I can finally hug you, look into your eyes, and tell you all of this while you're beside me.</p>
+    <p>I don't only want to love you in the ways I already know. I want to learn how you like to feel loved, too. I want us to grow together without either of us feeling like we must become someone else to deserve love.</p>
+    <p>Four months may be only the beginning, but I'm grateful for every little chapter we've shared. We've laughed, made memories, learned things, and faced difficult moments. And through it all, I'm still here, happy that our paths crossed.</p>
+    <p>Two people don't need to come from the same world to build something beautiful together. Sometimes, they just need to be willing to discover each other's worlds, little by little.</p>
+    <p>Happy four months, my handsome penguin baby. I love you today, tomorrow, and in every chapter we have yet to write together. ❤️</p>
+    <p style="text-align:right">Always your princess. 💌</p>
+  </div>
+</section>
+<section id="surprise">
+  <p class="eyebrow">One last little thing...</p>
+  <h2>Before You Go 🥹</h2>
+  <p>I saved one more message just for you.</p>
+  <button onclick="document.getElementById('secret').classList.toggle('show')">
+    Tap for your surprise 💗
+  </button>
+  <div id="secret" class="card hidden-surprise">
+    <div class="heart">🐧❤️🐧</div>
+    <h2>You're My Favorite Chapter!</h2>
+    <p>Even though we haven't met in person yet, I dream of the day I can finally hug you and celebrate by your side.</p>
+    <p>Thank you for these four months, my handsome penguin baby. We may come from different worlds, but I'm happy we're learning to build one together.</p>
+    <p>I love you, baby. Here's to us, to learning, to growing, and to all the beautiful chapters still waiting for us. 💗</p>
+    <p>Forever your princess. 🐧💌</p>
+  </div>
+</section>
+
+<footer>
+  Made with love, just for you. 💗<br>
+  Four months down, so many chapters to go.
+</footer>
+
+</body>
+</html>
